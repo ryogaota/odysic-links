@@ -1,5 +1,14 @@
+# AASA は JSON で返す
 [[headers]]
   for = "/.well-known/apple-app-site-association"
   [headers.values]
-  Content-Type = "application/json"
-  Cache-Control = "public, max-age=0"
+    Content-Type = "application/json"
+    Cache-Control = "public, max-age=0"
+
+# www でも .well-known 配下は 200 で直返し（301 を回避）
+[[redirects]]
+  from = "/.well-known/*"
+  to = "/.well-known/:splat"
+  status = 200
+  force = true
+  conditions = { Host = ["www.odysic.com"] }
