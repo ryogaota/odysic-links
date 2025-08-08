@@ -3,8 +3,8 @@
     "apps": [],
     "details": [
       {
-        "appID": "ZSVW768086.com.gmail.dev.ota.ryoga.odysic",
-        "paths": [ "/password-reset", "/password-reset/*" ]
+        "appID": "ZSVM768Q86.com.gmail.dev.ota.ryoga.odysic",
+        "paths": ["/password-reset", "/password-reset/*"]
       }
     ]
   }
