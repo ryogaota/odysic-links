@@ -4,7 +4,7 @@
     "details": [
       {
         "appID": "ZSVM768Q86.com.gmail.dev.ota.ryoga.odysic",
-        "paths": ["/password-reset", "/password-reset/*"]
+        "paths": ["/auth/*", "/password-reset", "/password-reset/*"]
       }
     ]
   }
