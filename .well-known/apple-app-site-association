@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["ABCDE12345.com.odysic.app"],
+        "paths": ["/password-reset/*"]
+      }
+    ]
+  }
+}
