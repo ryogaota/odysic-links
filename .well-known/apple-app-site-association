@@ -1,9 +1,10 @@
 {
-  "applinks": {"apps": [],
+  "applinks": {
+    "apps": [],
     "details": [
       {
-        "appID": ["ZSVM768Q86.com.gmail.dev.ota.ryoga.odysic"],
-        "paths": ["/password-reset/*"]
+        "appID": "ZSVM768Q86.com.gmail.dev.ota.ryoga.odysic",
+        "paths": [ "/password-reset/*" ]
       }
     ]
   }
